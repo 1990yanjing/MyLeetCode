@@ -28,11 +28,9 @@ bool isValidSudoku(vector<vector<char> > &board)
     {
         for(int j = 0; j < 9;++j)
         {
-            cout<<"ok"<<endl;
             if(board[i][j] != '.')
             {
                 int pos = board[i][j] - '0';
-                cout<<pos<<endl;
                 if(colChk[j][pos] || rowChk[i][pos] || nineChk[getWhichCro(i, j)][pos])
                     return false;
                 else

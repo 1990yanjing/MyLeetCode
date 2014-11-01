@@ -4,7 +4,7 @@ using namespace std;
 /**
  * Array
  * No.70 Climbing Stairs
- * ì³²¨ÄÇÆõÊıÁĞ,ĞèÓÃµü´ú·¨Çó½âµÚnÏî£¬·ñÔò»á³¬Ê±
+ * æ–æ³¢é‚£å¥‘æ•°åˆ—,éœ€ç”¨è¿­ä»£æ³•æ±‚è§£ç¬¬né¡¹ï¼Œå¦åˆ™ä¼šè¶…æ—¶
  * f(n) = f(n - 1) + f(n - 2)
  */
 int climbStairs(int n)
