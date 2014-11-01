@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * NO. 60 Rotate Image
+ * NO. 48 Rotate Image
  * 将二维数组原地顺时针旋转
  * 算法：
  *    1、首先，将二维数组沿其副对角翻转

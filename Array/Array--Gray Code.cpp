@@ -5,7 +5,7 @@ using namespace std;
 /**
  * Array
  * No.89 Gray Code
- * 自然码装格雷码
+ * 自然码转换格雷码
  * 格雷码有数学公式，整数n的格雷码是n异或(n/2)
  */
 vector<int> grayCode(int n) 

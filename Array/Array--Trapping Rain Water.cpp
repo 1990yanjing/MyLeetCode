@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * NO. 60 Trapping Rain Water
+ * NO. 42 Trapping Rain Water
  * 通过柱子高度，求得存水量
  * 算法：
  *   1. 扫描一遍,找到最高的柱子,这个柱子将数组分为两半; 

@@ -15,4 +15,8 @@
 - [*No.31*](https://oj.leetcode.com/problems/next-permutation/ "problem")    [**Array--Next Permutation.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Next Permutation.cpp "code") 找到全排列组合中的下一个组合
 - [*No.60*](https://oj.leetcode.com/problems/permutation-sequence/ "problem")    [**Array--Permutation Sequence.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Permutation Sequence.cpp "code") 找到全排列中的第k个排列
 - [*No.36*](https://oj.leetcode.com/problems/valid-sudoku/ "problem")    [**Array--Valid Sudoku.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Valid Sudoku.cpp "code") 检验给定数独是否有效
-
+- [*No.42*](https://oj.leetcode.com/problems/trapping-rain-water/ "problem")    [**Array--Trapping Rain Water.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Trapping Rain Water.cpp "code") 通过柱子高度，求得存水量
+- [*No.48*](https://oj.leetcode.com/problems/rotate-image/ "problem")    [**Array--Rotate Image.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Rotate Image.cpp "code") 将二维数组原地顺时针旋转
+- [*No.66*](https://oj.leetcode.com/problems/plus-one/ "problem")    [**Array--Plus One.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Plus One.cpp "code") 对存储在数据中的数字加1
+- [*No.70*](https://oj.leetcode.com/problems/climbing-stairs/ "problem")    [**Array--Climbing Stairs.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Climbing Stairs.cpp "code") 求斐波纳契数列的n项
+- [*No.89*](https://oj.leetcode.com/problems/gray-code/ "problem")    [**Array--Gray Code.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array/Array--Gray Code.cpp "code") 求解格雷码转换自然数
