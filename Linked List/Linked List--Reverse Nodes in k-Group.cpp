@@ -13,7 +13,7 @@ ListNode *reverseKGroup(ListNode *head, int k)
 		return head;
 	ListNode *ptr = head;
 	int length = 0;
-	while(ptr)
+	while(ptr)//获得链表长度
 	{
 		length++;
 		ptr = ptr->next;
@@ -21,9 +21,9 @@ ListNode *reverseKGroup(ListNode *head, int k)
 	if(length < k)
 		return head;
 
-	int reverse_times = length / k;
-	int step = 1;
-	int cost_time = 1;
+	int reverse_times = length / k;//判断需要倒置几组链表段儿
+	int step = 1;//控制每组的倒置长度
+	int cost_time = 1;//控制倒置了几组
 	ListNode *ptr1, *ptr2, *prev;
 	ListNode *dummy_head = new ListNode(-1);
 	dummy_head->next = head;
@@ -33,11 +33,11 @@ ListNode *reverseKGroup(ListNode *head, int k)
 
 	while(ptr1 != NULL && ptr2 != NULL)
 	{
-		if(step < k)
+		if(step < k)//每组的倒置实现（头插法），保持每组的尾节点，并跟踪后记节点
 	    {
 	    	ptr1->next = ptr2->next;
 	    	ptr2->next = prev->next;
-	    	prev->next = ptr2;
+	    	prev->next = ptr2;//头插
 	    	ptr2 = ptr1->next;
 	    	step++;
 	    }
