@@ -41,9 +41,23 @@ public:
     void set(int key, int value) 
     {
     	count++;
+    	ListNode *ptr = dummy_head->next;
     	if(get(key))
     	{
-    		
+    		while(ptr)
+	        {
+	        	if(ptr->key == key)
+	        		ptr->value = value;
+	        }
+    	}
+    	else
+    	{
+    		if(count > capacity)
+    		{
+    			ListNode *tmp = dummy_head->tmp;
+    			dummy_head->next = dummy_head->next->next;
+    			delete tmp;
+    		}
     	}
     }
 };
