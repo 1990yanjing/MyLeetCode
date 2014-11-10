@@ -9,7 +9,8 @@ struct ListNode {
   int key;
   int value
   ListNode *next;
-  ListNode(int x) : key(x), val(x), next(NULL) {}
+  ListNode *prev;
+  ListNode(int x, int y) : key(x), value(y), next(NULL), prev(NULL) {}
 };
 
 class LRUCache
@@ -19,6 +20,7 @@ public:
 	int count;
 	ListNode* dummy_head;
 	ListNode* tail;
+    Map<int, int> dect;
     LRUCache(int capacity) 
     {
         this->capacity = capacity;
