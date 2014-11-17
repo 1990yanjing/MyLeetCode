@@ -3,7 +3,7 @@
 /**
  * Array
  * Remove Duplicates from Sorted Array
- * 注意判断边界条件
+ * 娉ㄦ剰鍒ゆ柇杈圭晫鏉′欢
  */
 int removeDuplicates(int A[], int n)
 {
