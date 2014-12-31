@@ -4,6 +4,7 @@
  * Array
  * Remove Duplicates from Sorted Array
  * 注意判断边界条件
+ * date:2014.12.31
  */
 int removeDuplicates(int A[], int n)
 {
