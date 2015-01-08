@@ -25,7 +25,7 @@ int search(int A[], int n, int target)
     	}
     	else
     	{
-    		if(target < A[high - 1] && target > A[mid])
+    		if(target <= A[high - 1] && target > A[mid])
     			low = mid + 1;
     		else
     			high = mid;
