@@ -8,3 +8,4 @@
 - [*No.04*](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/ "problem")    [**Array--Search in Rotated Sorted ArrayII.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Median of Two Sorted Arrays.cpp "code") 找到两个有序序列的中位数（我的对位法） 
 - [*No.128*](https://oj.leetcode.com/problems/longest-consecutive-sequence/ "problem")    [**Array--Search in Rotated Sorted ArrayII.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Longest Consecutive Sequence.cpp "code") 在无序序列中寻找最长连续子序列（排序&哈希表） 
 - [*No.1*](https://oj.leetcode.com/problems/two-sum/ "problem")    [**Array--Two Sum.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Two Sum.cpp "code") 在无序序列中寻找和为给定值的两个数字的位置（哈希表）
+- [*No.15*](https://oj.leetcode.com/problems/three-sum/ "problem")    [**Array--Three Sum.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Three Sum.cpp "code") 在无序序列中寻找和为给定值的三个数字的所有组合（夹逼）
