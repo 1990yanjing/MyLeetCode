@@ -44,3 +44,47 @@ vector<int> twoSum(vector<int> &numbers, int target)
     
     return ret;
 }
+
+/**
+ * 2 sum 夹逼算法版本，但是不使用与leetcode的题目；题目要求记录位置；使用哈希表的方式更为合适
+ * 但是没有夹逼发高效；更是3Sum以及4sum的核心算法
+ */
+vector<int> twoSum(vector<int> &numbers, int target) 
+{    
+    vector<int> ret;
+    if(numbers.size() < 2)
+        return ret;
+    
+    sort(numbers.begin(), numbers.end());
+    int i = 0;
+    int j = numbers.size() - 1;
+    
+    while(j > i)
+    {
+        if(i > 0 && numbers[i] == numbers[i - 1])
+        {
+            i++;
+            continue;
+        }
+        if(j < numbers.size() - 1 && numbers[j] == numbers[j + 1])
+        {
+            j--;
+            continue;
+        }
+        int sum = numbers[i] + numbers[j];
+        if(sum > target)
+            j--;
+        else
+        {
+            if(sum < target)
+                i++;
+            else
+            {
+                ret.push_back(i + 1);
+                ret.push_back(j + 1);
+                return ret;
+            }
+        }
+    }
+    return ret;
+}
