@@ -4,7 +4,7 @@ using namespace std;
 
 /**
  * NO. 18 4Sum(K sum 问题)
- * 夹逼算法
+ * 夹逼算法(需要k-2重循环)，归结为2Sum的夹逼
  * 注意：去重即可
  */
 
