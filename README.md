@@ -12,3 +12,7 @@
 - [*No.16*](https://oj.leetcode.com/problems/3sum-closest/ "problem")    [**Array--Three Sum Closest.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Three Sum Closest.cpp "code") 在无序序列中寻找和最接近给定值的和（K Sum）
 - [*No.18*](https://oj.leetcode.com/problems/4sum/ "problem")    [**Array--Four Sum.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Four Sum.cpp "code") 在无序序列中寻找和为给定值的三个数字的所有组合(K Sum)
 - [*No.27*](https://oj.leetcode.com/problems/remove-element/ "problem")    [**Array--Remove Element.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Remove Element.cpp "code") 删除数组中的指定元素
+- [*No.31*](https://oj.leetcode.com/problems/next-permutation/ "problem")    [**Array--Next Permutation.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Next Permutation.cpp "code") 找到全排列组合中的下一个组合
+- [*No.60*](https://oj.leetcode.com/problems/permutation-sequence/ "problem")    [**Array--Permutation Sequence.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Permutation Sequence.cpp "code") 找到全排列中的第k个排列
+- [*No.36*](https://oj.leetcode.com/problems/valid-sudoku/ "problem")    [**Array--Valid Sudoku.cpp**](https://github.com/1990yanjing/MyLeetCode/blob/master/Array--Valid Sudoku.cpp "code") 检验给定数独是否有效
+
