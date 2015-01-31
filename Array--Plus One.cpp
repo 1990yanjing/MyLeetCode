@@ -6,7 +6,6 @@ using namespace std;
  * NO. 60 Plus One
  * 注意：
  *    vector的insert(iterator, elem) API的使用 可在任意位置(迭代器)之前插入元素！！
- * 
  */
 vector<int> plusOne(vector<int> &digits)
 {
